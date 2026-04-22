@@ -1,8 +1,108 @@
 body {
     background-color: #c1ff79;
+    color: #222;
     font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
     margin: 0;
     padding: 20px;
 }
 
+h1 {
+    text-align: center;
+    color: #1b5e20;
+}
+
+h2, h3 {
+    color: #1b5e20;
+}
+
+p {
+    line-height: 1.6;
+    text-align: left;
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 10px 0;
+    border: 2px solid #1b5e20;
+    border-radius: 8px;
+}
+
+ul, ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    justify-content:center;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    background-color: #1b5e20;
+}
+
+#big {
+    background-color: #1b5e20;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.section-title {
+    margin: 0;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #c8e6c9;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#info {
+    border-left: 6px solid #1b5e20;
+}
+
+#courts {
+    border-left: 6px solid #2e7d32;
+}
+
+.image-section {
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+#main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
