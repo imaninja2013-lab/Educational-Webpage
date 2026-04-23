@@ -29,23 +29,21 @@ img {
     border-radius: 8px;
 }
 
-ul, ol {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+ul:not(.list-group), 
+ol:not(.list-group) {
     padding: 0;
     list-style: none;
-    justify-content:center;
 }
 
+/******************************
 li {
-    background-color: #ffffff;
     padding: 10px 15px;
     border: 2px solid #2e7d32;
     border-radius: 8px;
     min-width: 150px;
     text-align: center;
 }
+********************************/
 
 footer{
     margin-top: 20px;
@@ -58,8 +56,9 @@ footer{
 #big {
     background-color: #1b5e20;
     color: white;
-    padding: 25px;
+    padding: 30px;
     text-align: center;
+    letter-spacing:1px;
 }
 
 .section-title {
@@ -67,12 +66,14 @@ footer{
     color: white;
 }
 
+/****************************
 .flex-container {
     display: flex;
     gap: 30px;
     padding: 20px;
     align-items: flex-start;
 }
+*****************************/
 
 .card {
     background-color: white;
@@ -81,6 +82,7 @@ footer{
     border: 2px solid #c8e6c9;
     flex: 1;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
 #info {
@@ -120,3 +122,27 @@ footer a {
           align-items: center;
         }
     }
+
+.card:hover {
+    transform: translateY(-5px);
+    transition:0.3s;
+}
+
+.btn {
+    background-color: #1b5e20;
+    color: white;
+    border:none;
+}
+
+.btn:hover {
+    background-color: #2e7d32;
+}
+
+.skill-box {
+    padding: 10px 15px;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: center;
+    background: color white;
+}
